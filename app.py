@@ -11,8 +11,8 @@ st.set_page_config(page_title='Decathlon Dashboard', layout='wide')
 
 # Ścieżki do plików CSV
 PATH_CO = r"C:\Users\jtanska\OneDrive - Loyalty Partner Group\Desktop\Zadanie_rekrutacyjne\customer_orders.csv"
-PATH_SPORTS = r"C:\Users\jtanska\OneDrive - Loyalty Partner Group\Desktop\Zadanie_rekrutacyjne\sports.csv"
-PATH_ORDERS = r"C:\Users\jtanska\OneDrive - Loyalty Partner Group\Desktop\Zadanie_rekrutacyjne\orders.csv"
+PATH_SPORTS = r"https://drive.google.com/file/d/1fagn7etp2eGNU0qzbwS0DUpK4iZcvWmw/view?usp=sharing"
+PATH_ORDERS = r"https://drive.google.com/file/d/1n4fw-_tallj24MXqrSFMY7MWqHdybZen/view?usp=sharing"
 
 @st.cache_data
 def load_data():
