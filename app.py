@@ -12,7 +12,7 @@ st.set_page_config(page_title='Decathlon Dashboard', layout='wide')
 # Ścieżki do plików CSV
 PATH_CO = "https://drive.google.com/uc?export=download&id=1n4fw-_tallj24MXqrSFMY7MWqHdybZen"
 PATH_SPORTS = "https://drive.google.com/uc?export=download&id=1fagn7etp2eGNU0qzbwS0DUpK4iZcvWmw"
-PATH_ORDERS = "https://drive.google.com/uc?export=download&id=1n4fw-_tallj24MXqrSFMY7MWqHdybZen"
+PATH_ORDERS = "https://drive.google.com/uc?export=download&id=1Ud8iAQ6IkWnsbMCRemJ083BIfR76nqiO"
 
 @st.cache_data
 def load_data():
