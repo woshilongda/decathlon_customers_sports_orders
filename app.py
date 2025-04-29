@@ -10,9 +10,9 @@ import altair as alt
 st.set_page_config(page_title='Decathlon Dashboard', layout='wide')
 
 # Ścieżki do plików CSV
-PATH_CO = r"https://drive.google.com/file/d/1n4fw-_tallj24MXqrSFMY7MWqHdybZen/view?usp=sharing"
-PATH_SPORTS = r"https://drive.google.com/file/d/1fagn7etp2eGNU0qzbwS0DUpK4iZcvWmw/view?usp=sharing"
-PATH_ORDERS = r"https://drive.google.com/file/d/1n4fw-_tallj24MXqrSFMY7MWqHdybZen/view?usp=sharing"
+PATH_CO = "https://drive.google.com/uc?export=download&id=1n4fw-_tallj24MXqrSFMY7MWqHdybZen"
+PATH_SPORTS = "https://drive.google.com/uc?export=download&id=1fagn7etp2eGNU0qzbwS0DUpK4iZcvWmw"
+PATH_ORDERS = "https://drive.google.com/uc?export=download&id=1n4fw-_tallj24MXqrSFMY7MWqHdybZen"
 
 @st.cache_data
 def load_data():
